@@ -29,6 +29,6 @@ jobs:
     - name: Deploy to App Service
       uses: azure/webapps-deploy@v2
       with:
-        app-name: "realworld-backend"
+        app-name: "backend-demo-12345679"
         publish-profile: ${{ secrets.BACKEND_PUBLISH_PROFILE_JSON }}
         package: backend/target/*.jar

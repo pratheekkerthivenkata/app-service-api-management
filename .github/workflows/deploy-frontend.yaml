@@ -31,6 +31,6 @@ jobs:
     - name: 'Deploy to Azure Web App'
       uses: azure/webapps-deploy@v1
       with: 
-        app-name: 'realworld-frontend'
+        app-name: 'frontend-demo-123456789'
         publish-profile: ${{ secrets.FRONTEND_PUBLISH_PROFILE }}
         package: frontend/dist/
