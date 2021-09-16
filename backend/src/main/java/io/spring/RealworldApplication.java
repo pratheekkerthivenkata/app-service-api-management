@@ -8,5 +8,6 @@ public class RealworldApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(RealworldApplication.class, args);
+		System.out.println("Hello from backend");
 	}
 }
